@@ -1,0 +1,19 @@
+.container-resposta {
+    display: none;
+    font-family: var(--fonte-primaria);
+    background-color: var(--azul-claro);
+    color: var(--cinza);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-resposta__texto {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.container-resposta__link {
+    color: var(--cinza);
+    text-decoration: underline;
+}

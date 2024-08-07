@@ -1,0 +1,36 @@
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    column-gap: 1.5rem;
+    color: var(--branco);
+    padding: 2rem 1.5rem;
+}
+
+.formulario__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    line-height: 42px;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@media screen and (min-width:768px) {
+    .formulario {
+        padding: 3rem 3.75rem;
+    }
+
+    .formulario__titulo {
+        font-size: 3rem;
+        line-height: 62px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario {
+        width: 795px;
+        padding: 3rem 0;
+        margin: 0 auto;
+    }
+}

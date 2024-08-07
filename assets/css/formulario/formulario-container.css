@@ -1,0 +1,74 @@
+.formulario-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: .5rem
+}
+
+.formulario-container__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    line-height: 41.6px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.formulario-container__rotulo {
+    display: block;
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.formulario-container__input {
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+    border: none;
+    padding: 1rem;
+}
+
+.formulario-container__input--nome {
+    padding: .75rem 1rem;
+}
+
+.formulario-container__botao {
+    display: flex;
+    align-self: center;
+    gap: 1rem;
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px #444444;
+    background: var(--roxo-boreal) url("../../img/right-arrow.svg") no-repeat 85% 50%/ 1.25rem;
+    color: var(--branco);
+    width: 10rem;
+    padding: .8rem 1.2rem;
+    margin: 0 auto;
+}
+
+.formulario-container__mensagem-erro {
+    font-family: var(--fonte-erro);
+    font-size: 1rem;
+    color: var(--vermelho-erro);
+}
+
+@media screen and (min-width:768px) {
+    .formulario-container__titulo {
+        font-size: 3rem;
+        line-height: 62.4px;
+    }
+
+    .formulario-container__input--data {
+        max-width: 453px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario-container--pequeno {
+        max-width: 385.5px;
+    }
+}

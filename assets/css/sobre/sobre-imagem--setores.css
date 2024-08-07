@@ -1,0 +1,36 @@
+.sobre__imagem--setores {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 239px;
+}
+
+.sobre__imagem--pista {
+    background-image: url('../../img/sobre-setores/pista-pequeno.png');
+}
+
+.sobre__imagem--pista-premium {
+    background-image: url('../../img/sobre-setores/pista-premium-pequeno.png');
+}
+
+.sobre__imagem--cadeiras {
+    background-image: url('../../img/sobre-setores/cadeiras-pequeno.png');
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__imagem--aexperiencia {
+        min-width: 382.4px;
+    }
+
+    .sobre__imagem--pista {
+        background-image: url('../../img/sobre-setores/pista-grande.png');
+    }
+    
+    .sobre__imagem--pista-premium {
+        background-image: url('../../img/sobre-setores/pista-premium-grande.png');
+    }
+    
+    .sobre__imagem--cadeiras {
+        background-image: url('../../img/sobre-setores/cadeiras-grande.png');
+    }
+}

@@ -1,0 +1,20 @@
+.mapa-setores__imagem {
+    background-image: url('../../img/mapa-setores/mapa-setores-mobile.png');
+    width: 360px;
+    height: 360px;
+}
+
+@media screen and (min-width: 768px) {
+    .mapa-setores__imagem {
+        background-image: url('../../img/mapa-setores/mapa-setores-tablet.png');
+        width: 648px;
+        height: 609px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .mapa-setores__imagem {
+        background-image: url('../../img/mapa-setores/mapa-setores-desktop.png');
+        width: 690px;
+    }
+}

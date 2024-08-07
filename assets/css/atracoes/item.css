@@ -1,0 +1,51 @@
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    font-family: var(--fonte-primaria);
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item--principal {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+}
+
+.item--secundario {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.85rem;
+}
+
+.item--terciario {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.item--quartenario {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .item-container {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .item {
+        flex-direction: row;
+    }
+}

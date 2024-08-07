@@ -1,0 +1,15 @@
+.banner--setores {
+    background-image: url('../../img/banner-setores/banner-setores-mobile.png');
+}
+
+@media screen and (min-width: 768px) {
+    .banner--setores {
+        background-image: url('../../img/banner-setores/banner-setores-tablet.png');
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner--setores {
+        background-image: url('../../img/banner-setores/banner-setores-desktop.png');
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><CodeChella/> - Ingresso Comprado</title>
+
+        <link rel="shortcut icon" href="./assets/img/Símbolo-cinza 1.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/lista-menu.css">
+        <link rel="stylesheet" href="./assets/css/homepage.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-compra.css">
+        <link rel="stylesheet" href="./assets/css/ingresso/ingresso.css">
+        <link rel="stylesheet" href="./assets/css/ingresso/ingresso-container-conteudo.css">
+        <link rel="stylesheet" href="./assets/css/ingresso/conteudo-descricao.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-container.css">
+        <link rel="stylesheet" href="./assets/css/rodape/midia.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <a class="cabecalho__link" href="./index.html">
+                <img class="cabecalho__logo" src="./assets/img/Logo-boreal.png" alt="Logo do CodeChella">
+            </a>
+
+            <div class="cabecalho__rotulo">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </div>
+
+            <nav>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="./aExperiencia.html">A experiência</a></li>
+                    <hr class="lista-menu__linha">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="./mapaSetores.html">Mapa de Setores</a></li>
+                    <hr class="lista-menu__linha">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="./informacoesGerais.html">Informações</a></li>
+                    <hr class="lista-menu__linha">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="./garantaSeuIngresso.html">Ingresso</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="homepage homepage--compra">
+            <section class="banner banner--compra"></section>
+
+            <section class="ingresso">
+                <h3 class="ingresso__titulo">Uhul, agora sim! Seu ingresso está aqui, apresente na entrada do evento e divirta-se!</h3>
+                <div class="ingresso-container">
+                    <div class="ingresso-container__icones">
+                        <img src="./assets/img/Logo-boreal.png" alt="Logo do CodeChella" class="icones__imagem">
+                        <img src="./assets/img/icone-branco.png" alt="Ícone do CodeChella" class="icones__imagem">
+                    </div>
+                    <div class="ingresso-container__conteudo">
+                        <div class="conteudo__QRcode"></div>
+                        <div class="conteudo__descricao">
+                            <p class="descricao__nome">Matheus Dutra</p>
+                            <p class="descricao__ingresso">Ingresso: Cortesia</p>
+                            <p class="descricao__setor">Setor: Pista</p>
+                            <p class="descricao__data">Data: 11/03</p>
+                            <p class="descricao__local">local: São Paulo-SP</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <div class="rodape-container">
+                <img class="rodape-container__logo" src="./assets/img/Logo-boreal.png" alt="Logo da CodeChella">
+                <div class="midia">
+                    <p class="midia__texto">Acesse nossas redes:</p>
+                    <img class="midia__icones" src="./assets/img/rodape/midias.png" alt="Icones do Whatsapp Twitch Instagram Twitter">
+                </div>
+            </div>
+            <p class="rodape__texto">Desenvolvido por Alura.<br class="rodape__texto--quebra"> Projeto fictício sem fins comerciais.</p>
+        </footer>
+
+        <script src="./assets/js/inserir-informacoes.js" type="module"></script>
+        <script src="./assets/js/menu-hamburger.js"></script>
+    </body>
+</html>

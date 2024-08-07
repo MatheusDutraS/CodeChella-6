@@ -1,0 +1,52 @@
+.cabecalho {
+    background-color: var(--roxo-boreal);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+}
+
+.cabecalho__link:hover {
+    cursor: pointer;
+}
+
+.cabecalho__rotulo {
+    position: absolute;
+    right: 32px;
+}
+
+.cabecalho__logo {
+    height: 64px;
+}
+
+.cabecalho__input {
+    display: none;
+}
+
+.cabecalho__menu-hamburguer {
+    display: inline-block;
+    width: 32px;
+    height: 40px;
+    background: url('../../img/cabecalho/menu-hamburguer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 3.75rem;
+    }
+
+    .cabecalho__rotulo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        flex-direction: row;
+        padding: 2rem 7.5rem;
+    }
+}

@@ -1,0 +1,45 @@
+.ingresso {
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto
+}
+
+.ingresso-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--bg-boreal);
+    width: 100%;
+    padding: 2rem;
+}
+
+.ingresso__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.ingresso-container__icones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones__imagem {
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .ingresso {
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ingresso {
+        width: 792px;
+    }
+}

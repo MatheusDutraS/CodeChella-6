@@ -1,0 +1,33 @@
+.container-pergunta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--roxo-boreal);
+    padding: 1rem;
+}
+
+.container-pergunta__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.container-pergunta__input {
+    display: none;
+}
+
+.container-pergunta__input:checked~.container-resposta{
+    display: block;
+}
+
+.mostrar-resposta {
+    display: inline-block;
+    background-image: url('../../img/drop-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+    transition: .6s ;
+}
+

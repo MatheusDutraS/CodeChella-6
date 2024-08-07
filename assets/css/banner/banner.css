@@ -1,0 +1,19 @@
+.banner {
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        height: 384px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        height: 407px;
+    }
+}

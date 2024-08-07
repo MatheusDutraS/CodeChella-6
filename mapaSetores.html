@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><CodeChella/> - Mapa dos Setores</title>
+
+        <link rel="shortcut icon" href="./assets/img/Símbolo-cinza 1.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/lista-menu.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-setores.css">
+        <link rel="stylesheet" href="./assets/css/homepage.css">
+        <link rel="stylesheet" href="./assets/css/mapa-setores/mapa-setores.css">
+        <link rel="stylesheet" href="./assets/css/mapa-setores/mapa-setores-imagem.css">
+        <link rel="stylesheet" href="./assets/css/mapa-setores/lista-legenda.css">
+        <link rel="stylesheet" href="./assets/css/detalhes.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre-imagem--setores.css">
+        <link rel="stylesheet" href="./assets/css/sobre/container-descricao.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-container.css">
+        <link rel="stylesheet" href="./assets/css/rodape/midia.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <a class="cabecalho__link" href="./index.html">
+                <img class="cabecalho__logo" src="./assets/img/Logo-boreal.png" alt="Logo do CodeChella">
+            </a>
+
+            <div class="cabecalho__rotulo">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </div>
+
+            <nav>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="./aExperiencia.html">A experiência</a></li>
+                    <hr class="lista-menu__linha">
+                    <li class="lista-menu__item"><a class="lista-menu__link lista-menu__link--ativo" href="./mapaSetores.html">Mapa de Setores</a></li>
+                    <hr class="lista-menu__linha">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="./informacoesGerais.html">Informações</a></li>
+                    <hr class="lista-menu__linha">
+                    <li class="lista-menu__item"><a class="lista-menu__link" href="./garantaSeuIngresso.html">Ingresso</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="homepage">
+            <section class="banner banner--setores"></section>
+
+            <section class="mapa-setores">
+                <div class="mapa-setores__imagem"></div>
+                
+                <ul class="lista-legenda">
+                    <li>
+                        <h3 class="lista-legenda__titulo">Legenda:</h3>
+                    </li>
+                    <li class="lista-legenda__item">
+                        <img src="./assets/img/legenda/pista-premium.png" alt="" class="lista-legenda__imagem">
+                        <p class="lista-legenda__texto">Pista Premium</p>
+                    </li>
+                    <li class="lista-legenda__item">
+                        <img src="./assets/img/legenda/pista-comum.png" alt="" class="lista-legenda__imagem">
+                        <p class="lista-legenda__texto">Pista Comum</p>
+                    </li>
+                    <li class="lista-legenda__item">
+                        <img src="./assets/img/legenda/cadeiras-terreo.png" alt="" class="lista-legenda__imagem">
+                        <p class="lista-legenda__texto">Cadeiras térreo</p>
+                    </li>
+                    <li class="lista-legenda__item">
+                        <img src="./assets/img/legenda/cadeiras-superiores.png" alt="" class="lista-legenda__imagem">
+                        <p class="lista-legenda__texto">Cadeiras superiores</p>
+                    </li>
+                    <li class="lista-legenda__item">
+                        <img src="./assets/img/legenda/rampas.png" alt="" class="lista-legenda__imagem">
+                        <p class="lista-legenda__texto">Rampas</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="detalhes">
+                <h2 class="detalhes__titulo">Mais detalhes sobre os setores:</h3>
+                <div class="detalhes-container">
+                    <section class="sobre sobre--setores">
+                        <div class="sobre__imagem--setores sobre__imagem--pista"></div>
+                        <div class="container-descricao">
+                            <h3 class="container-descricao__titulo">Pista</h3>
+                            <p class="container-descricao__texto container-descricao__texto">Pista convencional, atendida pelos bares e banheiros das laterais do estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma grande.</p>
+                        </div>
+                    </section>
+                    <section class="sobre sobre--setores sobre--pista-premium">
+                        <div class="sobre__imagem--setores sobre__imagem--pista-premium"></div>
+                        <div class="container-descricao">
+                            <h3 class="container-descricao__titulo">Pista Premium</h3>
+                            <p class="container-descricao__texto container-descricao__texto">Pìsta mais próxima do palco, com acesso muito próximo a banheiros e bares num raio de 100m. Todas as pessoas idosas e/ou com deficiência têm direito a acesso gratuito a essa área.</p>
+                        </div>
+                    </section>
+                    <section class="sobre sobre--setores">
+                        <div class="sobre__imagem--setores sobre__imagem--cadeiras"></div>
+                        <div class="container-descricao">
+                            <h3 class="container-descricao__titulo">Cadeiras</h3>
+                            <p class="container-descricao__texto container-descricao__texto">Opção de cadeiras térreas ou elevadas. Acesso próximo a banheiros e bares, visão um pouco elevada em relação às pistas.</p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <div class="rodape-container">
+                <img class="rodape-container__logo" src="./assets/img/Logo-boreal.png" alt="Logo da CodeChella">
+                <div class="midia">
+                    <p class="midia__texto">Acesse nossas redes:</p>
+                    <img class="midia__icones" src="./assets/img/rodape/midias.png" alt="Icones do Whatsapp Twitch Instagram Twitter">
+                </div>
+            </div>
+            <p class="rodape__texto">Desenvolvido por Alura.<br class="rodape__texto--quebra"> Projeto fictício sem fins comerciais.</p>
+        </footer>
+
+        <script src="./assets/js/menu-hamburger.js"></script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+.banner--aexperiencia {
+    background-image: url('../../img/banner-experiencias/banner-aexperiencia-mobile.png');
+}
+
+@media screen and (min-width: 768px) {
+    .banner--aexperiencia {
+        background-image: url('../../img/banner-experiencias/banner-aexperiencia-tablet.png');
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner--aexperiencia {
+        background-image: url('../../img/banner-experiencias/banner-aexperiencia-desktop.png');
+    }
+}

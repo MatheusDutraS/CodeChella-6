@@ -1,0 +1,15 @@
+.banner--ingresso {
+    background-image: url('../../img/banner-ingresso/banner-ingresso-mobile.png');
+}
+
+@media screen and (min-width: 768px) {
+    .banner--ingresso {
+        background-image: url('../../img/banner-ingresso/banner-ingresso-tablet.png');
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner--ingresso {
+        background-image: url('../../img/banner-ingresso/banner-ingresso-desktop.png');
+    }
+}

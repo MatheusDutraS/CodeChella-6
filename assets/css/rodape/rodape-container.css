@@ -1,0 +1,23 @@
+.rodape-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rodape-container__logo {
+    width: 234px;
+    height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape-container {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape-container {
+        align-items: flex-start;
+    }
+}
